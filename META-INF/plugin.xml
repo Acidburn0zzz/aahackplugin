@@ -1,0 +1,24 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin>
+	<name>AAHack</name>
+	<description>Allows to enforce subpixel antialiasing and LCD contrast rendering hints when JVM doesn't enable them by default.
+		Only works with Sun JVM. See also: http://java.sun.com/products/java-media/2D/reference/faqs/#Q_How_can_I_specify_the_text_ant
+	</description>
+	<version>0.1</version>
+	<vendor email="konstantin.sobolev@gmail.com">Konstantin Sobolev</vendor>
+
+	<change-notes>
+		<![CDATA[<html>
+			<h3>0.1</h3>
+			<ul>
+				<li>Initial revision</li>
+			</ul>
+		</html>]]>
+	</change-notes>
+	<idea-version since-build="3000"/>
+	<application-components>
+		<component>
+			<implementation-class>org.kos.aahackplugin.AAHackPluginComponent</implementation-class>
+		</component>
+	</application-components>
+</idea-plugin>
